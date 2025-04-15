@@ -1,0 +1,14 @@
+<div className="absolute inset-0 -z-10">
+  <svg className="w-full h-full" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+    <defs>
+      <pattern id="afroGrid" width="100" height="100" patternUnits="userSpaceOnUse">
+        <path d="M0 0 L100 100 M100 0 L0 100" stroke="#2C2C2C" stroke-width="0.5" opacity="0.2"/>
+        <path d="M50 0 L50 100 M0 50 L100 50" stroke="#2C2C2C" stroke-width="0.25" opacity="0.1"/>
+        <circle cx="50" cy="50" r="1.5" fill="#FFD700" opacity="0.7"/>
+        <circle cx="0" cy="0" r="1" fill="#32CD32" opacity="0.5"/>
+        <circle cx="100" cy="100" r="1" fill="#32CD32" opacity="0.5"/>
+      </pattern>
+    </defs>
+    <rect width="100%" height="100%" fill="url(#afroGrid)" />
+  </svg>
+</div>
